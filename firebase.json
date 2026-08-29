@@ -1,0 +1,42 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "polytalk-ai-fbf60",
+          "appId": "1:864134859551:android:9752d6cc56c5c55ab83e2a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "polytalk-ai-fbf60",
+          "configurations": {
+            "android": "1:864134859551:android:9752d6cc56c5c55ab83e2a",
+            "ios": "1:864134859551:ios:32b9f8f853dc989bb83e2a",
+            "macos": "1:864134859551:ios:32b9f8f853dc989bb83e2a",
+            "web": "1:864134859551:web:014bb157e0279559b83e2a",
+            "windows": "1:864134859551:web:1379086edbfd614bb83e2a"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ]
+}

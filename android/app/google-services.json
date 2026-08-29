@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "864134859551",
+    "project_id": "polytalk-ai-fbf60",
+    "storage_bucket": "polytalk-ai-fbf60.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864134859551:android:9752d6cc56c5c55ab83e2a",
+        "android_client_info": {
+          "package_name": "com.example.polytalk_ai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHdJ0YzWKOQ2WWggrvu7CofUfe1Qv-N4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
