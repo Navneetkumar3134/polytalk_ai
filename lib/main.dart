@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'language_selection_screen.dart';
 
 void main() {
   runApp(const PolyTalkApp());
@@ -66,7 +67,15 @@ class WelcomeScreen extends StatelessWidget {
                 width: double.infinity,
                 height: 55,
                 child: ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) =>
+                            const LanguageSelectionScreen(),
+                      ),
+                    );
+                  },
                   child: const Text(
                     'Get Started',
                     style: TextStyle(fontSize: 17),
